@@ -1,0 +1,216 @@
+/* body {
+	font-family: 'Varela Round', sans-serif;
+	background-color: #f7f7f7;
+}
+
+.navbar {
+	background: #fff;
+	-moz-box-shadow: rgba(0, 0, 0, 0.09) 0 2px 0;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.09) 0 2px 0;
+	box-shadow: rgba(0, 0, 0, 0.09) 0 2px 0;
+	padding: 10px 16px;
+}
+
+.navbar .navbar-brand {
+	font-weight: bold;
+	letter-spacing: -1px;
+	font-size: 20px;
+	color: #dd5638;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #435d7d;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+
+.card-title {
+    color: #fff;
+    background: #435d7d;
+    padding: 16px 20px;
+}
+
+.footer {
+	background-color: #435d7d; 
+	color: #f7f7f7;
+}
+
+.footer a {
+	color: #d9d9d9;
+} */
+
+
+/* =========================
+   Dark Theme
+   ========================= */
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    background-color: #121212;
+    color: #e8e8e8;
+}
+
+/* =========================
+   Navbar
+   ========================= */
+
+.navbar {
+    background: #1b1b1b;
+    -moz-box-shadow: rgba(0, 0, 0, 0.45) 0 2px 0;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.45) 0 2px 0;
+    box-shadow: rgba(0, 0, 0, 0.45) 0 2px 0;
+    padding: 10px 16px;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 20px;
+    color: #ff6b4a;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+    color: #8fa8c4;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #c7c7c7;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ff6b4a;
+}
+
+/* =========================
+   Buttons
+   ========================= */
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+
+/* =========================
+   Cards
+   ========================= */
+
+.card {
+    background-color: #1e1e1e;
+    border: 1px solid #2d2d2d;
+    color: #e8e8e8;
+}
+
+.card-title {
+    color: #ffffff;
+    background: #435d7d;
+    padding: 16px 20px;
+}
+
+/* =========================
+   Inputs / Forms
+   ========================= */
+
+.form-control {
+    background-color: #242424;
+    color: #eeeeee;
+    border: 1px solid #3a3a3a;
+}
+
+.form-control:focus {
+    background-color: #282828;
+    color: #ffffff;
+    border-color: #435d7d;
+    box-shadow: 0 0 0 0.15rem rgba(67, 93, 125, 0.35);
+}
+
+.form-control::placeholder {
+    color: #888888;
+}
+
+/* =========================
+   Tables
+   ========================= */
+
+.table {
+    color: #e8e8e8;
+    background-color: #1e1e1e;
+}
+
+.table thead {
+    background-color: #252525;
+}
+
+.table td,
+.table th {
+    border-color: #353535;
+}
+
+/* =========================
+   Footer
+   ========================= */
+
+.footer {
+    background-color: #1a1a1a;
+    color: #d9d9d9;
+    border-top: 1px solid #2d2d2d;
+}
+
+.footer a {
+    color: #aeb7c2;
+}
+
+.footer a:hover {
+    color: #ff6b4a;
+}
+
+/* =========================
+   Links
+   ========================= */
+
+a {
+    color: #7fa6d1;
+}
+
+a:hover {
+    color: #ff6b4a;
+}
+
+/* =========================
+   Text
+   ========================= */
+
+.text-muted {
+    color: #999999 !important;
+}
+
+/* =========================
+   Dropdown
+   ========================= */
+
+.dropdown-menu {
+    background-color: #1e1e1e;
+    border: 1px solid #333333;
+}
+
+.dropdown-item {
+    color: #dddddd;
+}
+
+.dropdown-item:hover {
+    background-color: #2a2a2a;
+    color: #ffffff;
+}
+
