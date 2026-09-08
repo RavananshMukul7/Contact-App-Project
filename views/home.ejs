@@ -26,7 +26,7 @@
                     </tr>
                   </thead>
                   <tbody>
-                    <% let srno = 1;%>
+                    <% let srno = utilities.pagingCounter;%>
                     <% contacts.forEach(contact =>{ %>
                     <tr>
                       <td><%= srno++;%></td>
@@ -43,6 +43,22 @@
                     <% }) %>
                   </tbody>
                 </table> 
+                <nav >
+                  <ul class="pagination justify-content-center">
+                    <% let disabled1 = utilities.hasPrevPage ? "" : "disabled"%>
+                    <li class="page-item <%= disabled1 %>">
+                      <a class="page-link" href="./?page=<%=utilities.prevPage%>">Previous</a>
+                    </li>
+                    <% for(let i = 1; i <= utilities.totalPages; i++){%>
+                       <% let active = utilities.page == i ? "active" : ""%>
+                      <li class="page-item <%= active%>"><a class="page-link" href="./?page=<%= i %>"><%= i %></a></li>
+                    <%}%>
+                    <% let disabled2 = utilities.hasNextPage ? "" : "disabled"%>
+                    <li class="page-item <%= disabled2%>">
+                      <a class="page-link" href="./?page=<%=utilities.nextPage%>">Next</a>
+                    </li>
+                  </ul>
+                </nav>
               </div>
             </div>
           </div>
